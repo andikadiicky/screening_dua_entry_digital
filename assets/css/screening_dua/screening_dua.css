@@ -1,0 +1,39 @@
+.flex-square{
+	width: 100%;
+	background: transparent;
+	border: solid 1px black;
+}
+.flex-square:before{
+	content: "";
+	display: block;
+}
+
+.flex-square-title{
+	width: fit-content;
+	height: 30px;
+	margin-top: -15px;
+	margin-left: 10px;
+	background: white;
+}
+
+.flex-square-body{
+	margin: 5px 40px;
+	background: transparent;
+}
+.flex-square-body:before{
+	content: "";
+	display: block;
+}
+
+
+input[type=text] {
+    text-transform: uppercase;
+}
+
+textarea{
+    text-transform: uppercase;
+}
+
+.nav.nav-tabs{
+    justify-content: center
+}
