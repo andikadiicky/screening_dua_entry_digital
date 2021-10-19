@@ -60,7 +60,9 @@
       <div class="tab-pane" id="data-kepemilikan" role="tabpanel" aria-labelledby="data-kepemilikan-tab">
         <?php $this->load->view('/page/v_screening_dua/tab_data_kepemilikan'); ?>
         <!-- Button -->
-
+        <div style="margin-top: 5px; display:flex; justify-content: center">
+          <button class="btn btn-success" id="btn-entry-digital-submit" data-toggle="modal"><i class="fa fa-save"></i> Submit</button>
+        </div>
       </div>
     </div>
   </div>
