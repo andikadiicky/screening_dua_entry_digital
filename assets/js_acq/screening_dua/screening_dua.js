@@ -62,3 +62,22 @@ var tbl_upload_dok = $('#tbl-upload-dokumen').DataTable({
 	"paging": false,
 	"info": false
 });
+
+//Dika
+//Trigger modal bantuan isi data
+$('#btn-bantuan-isi-data').click(function () {
+	console.log('trigger button modal bantuan isi datas');
+	$('#modal-bantuan-isi').modal('show');
+});
+
+//DIKA
+//Screening Dua show form alasan batal
+$('input[type="radio"]').change(function () {
+	if (this.id == "bantuan-isi-ya") {
+		console.log('bantuan ya');
+		$('#form-alasan-batal').hide();
+	}else if (this.id == "bantuan-isi-tidak") {
+		console.log('bantuan tidak');
+		$('#form-alasan-batal').show();
+	}
+});

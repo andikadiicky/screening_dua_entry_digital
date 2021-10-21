@@ -16,7 +16,7 @@
           <div class="form-group row" style="justify-content: flex-end;">
             <label class="col-sm-2 col-form-label">Butuh Bantuan Pengisian Data?</label>
             <div>
-              <button type="button" class="btn btn-secondary">Klik Disini</button>
+              <button type="button" class="btn btn-secondary" id="btn-bantuan-isi-data">Klik Disini</button>
             </div>
           </div>
         </div>
@@ -36,5 +36,6 @@
 </div>
 <!-- /.content-wrapper -->
 <?php $this->load->view('modal/v_modal_alert'); ?>
+<?php $this->load->view('modal/v_modal_bantuan_isi'); ?>
 <?php $this->load->view('layout/footer'); ?>
 <?php $this->load->view('layout/footer_end'); ?>

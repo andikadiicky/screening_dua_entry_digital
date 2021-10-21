@@ -68,8 +68,8 @@
                                     <tr>
                                         <td name="kode_dok">00123</td>
                                         <td name="nama_dok">Kartu Keluarga (KK)</td>
-                                        <td style="text-align: center;"><a href="<?php echo site_url('#') ?>"><i class="fas fa-upload"></i></a></td>
-                                        <td style="text-align: center;"><a href="<?php echo site_url('#') ?>"><i class="fas fa-eye"></i></a></td>
+                                        <td style="text-align: center;"><a class="btn btn-file"><i class="fas fa-upload"></i><input type="file"/></a></td>
+                                        <td style="text-align: center;"><a class="btn" href="<?php echo site_url('#') ?>"><i class="fas fa-eye"></i></a></td>
                                     </tr>
                                 </tbody>
                             </table>
