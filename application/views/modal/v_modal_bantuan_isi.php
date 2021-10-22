@@ -33,7 +33,7 @@
                         </div>
 
                         <div class="float-right">
-                            <a href="#" class="btn btn-primary" data-dismiss="modal">Submit</a>
+                            <a href="#" class="btn btn-primary" id="btn-submit-bantuan">Submit</a>
                         </div>
 
                     </div>
@@ -46,3 +46,4 @@
         </div>
     </div>
 </div>
+<?php $this->load->view('modal/v_modal_bantuan_final'); ?>

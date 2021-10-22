@@ -70,13 +70,29 @@ $('#btn-bantuan-isi-data').click(function () {
 	$('#modal-bantuan-isi').modal('show');
 });
 
+//Trigger modal bantuan isi data final
+$('#btn-submit-bantuan').click(function () {
+	if (document.getElementById('bantuan-isi-ya').checked) {
+		console.log('bantuan ya');
+		$('#notif-positif').show();
+		$('#notif-negatif').hide();
+		$('#modal-bantuan-final').modal('show');
+
+	} else if (document.getElementById('bantuan-isi-tidak').checked) {
+		console.log('bantuan tidak');
+		$('#notif-positif').hide();
+		$('#notif-negatif').show();
+		$('#modal-bantuan-final').modal('show');
+	}
+});
+
 //DIKA
 //Screening Dua show form alasan batal
 $('input[type="radio"]').change(function () {
 	if (this.id == "bantuan-isi-ya") {
 		console.log('bantuan ya');
 		$('#form-alasan-batal').hide();
-	}else if (this.id == "bantuan-isi-tidak") {
+	} else if (this.id == "bantuan-isi-tidak") {
 		console.log('bantuan tidak');
 		$('#form-alasan-batal').show();
 	}
