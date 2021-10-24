@@ -13,7 +13,7 @@ class C_home extends CI_Controller {
 		$session_data['menu'] = [
             'home/home'
         ];
-		$this->load->view('page/v_home', $session_data);
+		$this->load->view('page/v_dashboard', $session_data);
 	}
 
 }
