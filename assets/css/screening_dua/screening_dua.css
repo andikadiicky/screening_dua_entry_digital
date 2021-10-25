@@ -3,10 +3,6 @@
 	background: transparent;
 	border: solid 1px black;
 }
-.flex-square:before{
-	content: "";
-	display: block;
-}
 
 .flex-square-title{
 	width: fit-content;
@@ -19,10 +15,6 @@
 .flex-square-body{
 	margin: 5px 40px;
 	background: transparent;
-}
-.flex-square-body:before{
-	content: "";
-	display: block;
 }
 
 input[type=text] {
