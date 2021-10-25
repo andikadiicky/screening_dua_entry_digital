@@ -18,12 +18,9 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Pekerjaan Debitur*:</label>
                                     <div class="col-sm-7">
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control inp-digit" id="inp-pekerjaan" disabled>
-                                            <div class="input-group-append">
-                                                <button class="btn btn-outline-secondary" type="button" id="button-addon2" disabled><i class="fa fa-search"></i></button>
-                                            </div>
-                                        </div>
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-pekerjaan">
+                                            <option selected disabled=""></option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -95,12 +92,9 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Pekerjaan Debitur*:</label>
                                     <div class="col-sm-7">
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control inp-digit" id="inp-pekerjaan-wira" disabled>
-                                            <div class="input-group-append">
-                                                <button class="btn btn-outline-secondary" type="button" id="button-addon2" disabled><i class="fa fa-search"></i></button>
-                                            </div>
-                                        </div>
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-pekerjaan-wira">
+                                            <option selected disabled=""></option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -202,12 +196,9 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Pekerjaan Pasangan*:</label>
                                     <div class="col-sm-7">
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control inp-digit" id="inp-pekerjaan-pasangan" disabled>
-                                            <div class="input-group-append">
-                                                <button class="btn btn-outline-secondary" type="button" id="button-addon2" disabled><i class="fa fa-search"></i></button>
-                                            </div>
-                                        </div>
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-pekerjaan-pasangan">
+                                            <option selected disabled=""></option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -274,12 +265,9 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Pekerjaan Pasangan*:</label>
                                     <div class="col-sm-7">
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control inp-digit" id="inp-pekerjaan-pasangan-wira" disabled>
-                                            <div class="input-group-append">
-                                                <button class="btn btn-outline-secondary" type="button" id="button-addon2" disabled><i class="fa fa-search"></i></button>
-                                            </div>
-                                        </div>
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-pekerjaan-pasangan-wira">
+                                            <option selected disabled=""></option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">

@@ -208,25 +208,17 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Kode Pos*</label>
+                                <label class="col-sm-3 col-form-label">Kode Pos*:</label>
                                 <div class="col-sm-9">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control inp-digit" id="inp-kode-pos-ktp">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
-                                        </div>
-                                    </div>
+                                    <select class="form-control select2bs4" style="width: 100%;" id="slc-zipcode-ktp">
+                                        <option selected disabled=""></option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Kelurahan*</label>
                                 <div class="col-sm-9">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" id="inp-kelurahan-ktp" disabled>
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-secondary" type="button" id="btn-search-kel-per"><i class="fa fa-search"></i></button>
-                                        </div>
-                                    </div>
+                                    <input type="text" class="form-control" id="inp-kelurahan-ktp" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -296,25 +288,17 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Kode Pos*</label>
+                                <label class="col-sm-3 col-form-label">Kode Pos*:</label>
                                 <div class="col-sm-9">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control inp-digit" id="inp-kode-pos-dom">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
-                                        </div>
-                                    </div>
+                                    <select class="form-control select2bs4" style="width: 100%;" id="slc-zipcode-dom">
+                                        <option selected disabled=""></option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Kelurahan*</label>
                                 <div class="col-sm-9">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" id="inp-kelurahan-dom" disabled>
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-secondary" type="button" id="btn-search-kel-per"><i class="fa fa-search"></i></button>
-                                        </div>
-                                    </div>
+                                    <input type="text" class="form-control" id="inp-kelurahan-dom" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
