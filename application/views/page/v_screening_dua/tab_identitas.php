@@ -186,7 +186,7 @@
                     <div class="flex-square-body">
                         <div class="col-md-12">
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Alamat KTP*</label>
+                                <label class="col-sm-3 col-form-label">Alamat KTP*:</label>
                                 <div class="col-sm-9">
                                     <div class="input-group">
                                         <textarea class="form-control" id="inp-alamat-ktp"></textarea>
@@ -194,7 +194,7 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">RT/RW*</label>
+                                <label class="col-sm-3 col-form-label">RT/RW*:</label>
                                 <div class="col-sm-9">
                                     <div class="input-group">
                                         <input type="text" class="form-control inp-digit" id="inp-rt-ktp">
@@ -216,31 +216,31 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Kelurahan*</label>
+                                <label class="col-sm-3 col-form-label">Kelurahan*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-kelurahan-ktp" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Kecamatan*</label>
+                                <label class="col-sm-3 col-form-label">Kecamatan*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-kecamatan-ktp" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Kab/Kota*</label>
+                                <label class="col-sm-3 col-form-label">Kab/Kota*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-kabkot-ktp" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Provinsi*</label>
+                                <label class="col-sm-3 col-form-label">Provinsi*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-provinsi-ktp" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">No Telephone*</label>
+                                <label class="col-sm-3 col-form-label">No Telephone*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control inp-digit" id="inp-no-telp">
                                 </div>
@@ -266,7 +266,7 @@
                     <div class="flex-square-body">
                         <div class="col-md-12">
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Alamat KTP*</label>
+                                <label class="col-sm-3 col-form-label">Alamat KTP*:</label>
                                 <div class="col-sm-9">
                                     <div class="input-group">
                                         <textarea class="form-control" id="inp-alamat-dom"></textarea>
@@ -274,7 +274,7 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">RT/RW*</label>
+                                <label class="col-sm-3 col-form-label">RT/RW*:</label>
                                 <div class="col-sm-9">
                                     <div class="input-group">
                                         <input type="text" class="form-control inp-digit" id="inp-rt-dom">
@@ -296,31 +296,31 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Kelurahan*</label>
+                                <label class="col-sm-3 col-form-label">Kelurahan*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-kelurahan-dom" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Kecamatan*</label>
+                                <label class="col-sm-3 col-form-label">Kecamatan*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-kecamatan-dom" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Kab/Kota*</label>
+                                <label class="col-sm-3 col-form-label">Kab/Kota*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-kabkot-dom" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Provinsi*</label>
+                                <label class="col-sm-3 col-form-label">Provinsi*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-provinsi-dom" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">No Telephone*</label>
+                                <label class="col-sm-3 col-form-label">No Telephone*:</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" id="inp-no-telp">
                                 </div>

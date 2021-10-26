@@ -10,6 +10,7 @@
 	margin-top: -15px;
 	margin-left: 10px;
 	background: white;
+	font-weight: bold;
 }
 
 .flex-square-body{
@@ -27,4 +28,8 @@ textarea{
 
 .nav.nav-tabs{
     justify-content: center
+}
+
+label {
+    font-weight: normal !important;
 }
