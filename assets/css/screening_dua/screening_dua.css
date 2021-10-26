@@ -33,3 +33,10 @@ textarea{
 label {
     font-weight: normal !important;
 }
+
+/* Responsive */
+@media screen and (min-width: 634px) {
+	.responsive-bantuan-isi{
+		justify-content: flex-end;
+	}
+}

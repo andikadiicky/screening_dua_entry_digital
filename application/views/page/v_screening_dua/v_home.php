@@ -13,7 +13,7 @@
           </h1>
         </div>
         <div class="col-sm-12">
-          <div class="form-group row" style="justify-content: flex-end;">
+          <div class="form-group row responsive-bantuan-isi">
             <label class="col-sm-2 col-form-label">Butuh Bantuan Pengisian Data?</label>
             <div>
               <button type="button" class="btn btn-secondary" id="btn-bantuan-isi-data">Klik Disini</button>
