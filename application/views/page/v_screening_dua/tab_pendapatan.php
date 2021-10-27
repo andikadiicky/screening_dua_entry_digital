@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <h5 style="margin-top:15px; margin-bottom:15px">Informasi Pendapatan</h5>
         <hr>
-        <div class="row" id="form-pekerjaan">
+        <div class="row" id="form-pendapatan-digital">
             <div class="col-md-6">
                 <!-- Start Informasi Pendapatan -->
                 <div class="col-md-12">

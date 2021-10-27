@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <h5 style="margin-top:15px; margin-bottom:15px">Informasi Identitas</h5>
         <hr>
-        <div class="row">
+        <div class="row" id="form-identitas-digital">
             <div class="col-md-12">
                 <!-- Start Identitas Debitur -->
                 <div class="flex-square">
