@@ -1,6 +1,6 @@
 <section class="content">
     <div class="container-fluid">
-        <h5 style="margin-top:15px; margin-bottom:15px">Informasi Data Kepemilikan & Dokumen</h5>
+        <h4 style="margin-top:15px; margin-bottom:15px">Informasi Data Kepemilikan & Dokumen</h4>
         <hr>
         <div class="col-md-12">
             <!-- Start Data Kepemilikan Rumah -->

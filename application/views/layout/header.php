@@ -6,10 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mandiri Utama Finance</title>
 
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/global.css">
   <!-- fav -->
   <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/fav.png">
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/fontawesome/css/all.min.css">
   <!-- overlayScrollbars -->

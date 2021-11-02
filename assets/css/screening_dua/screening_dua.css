@@ -1,39 +1,3 @@
-.flex-square{
-	width: 100%;
-	background: transparent;
-	border: solid 1px black;
-}
-
-.flex-square-title{
-	width: fit-content;
-	height: 30px;
-	margin-top: -15px;
-	margin-left: 10px;
-	background: white;
-	font-weight: bold;
-}
-
-.flex-square-body{
-	margin: 5px 40px;
-	background: transparent;
-}
-
-input[type=text] {
-    text-transform: uppercase;
-}
-
-textarea{
-    text-transform: uppercase;
-}
-
-.nav.nav-tabs{
-    justify-content: center
-}
-
-label {
-    font-weight: normal !important;
-}
-
 /* Responsive */
 @media screen and (min-width: 634px) {
 	.responsive-bantuan-isi{

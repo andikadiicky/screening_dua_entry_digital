@@ -1,6 +1,6 @@
 <section class="content">
     <div class="container-fluid">
-        <h5 style="margin-top:15px; margin-bottom:15px">Informasi Identitas Order</h5>
+        <h4 style="margin-top:15px; margin-bottom:15px">Informasi Identitas Order</h4>
         <hr>
         <div class="row" id="form-pekerjaan">
             <div class="col-md-6">
