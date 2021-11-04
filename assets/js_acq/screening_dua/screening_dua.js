@@ -1,27 +1,9 @@
-//Dika
-//Trigger button next
-$('.btnNext').click(function () {
-	console.log('trigger next');
-	var nextTab;
-	$('.nav-link').map(function (element) {
-		if ($(this).hasClass("active")) {
-			nextTab = $(this).parent().next('li');
-		}
-	})
-	nextTab.find('a').trigger('click');
+// Trigger button next & previous
+$('.next').click(function () {
+    $('.nav-tabs > .nav-item > .active').parent().next('li').find('a').trigger('click');
 });
-
-//Dika
-//Trigger button prev
-$('.btnPrev').click(function () {
-	console.log('trigger prev');
-	var prevTab;
-	$('.nav-link').map(function (element) {
-		if ($(this).hasClass("active")) {
-			prevTab = $(this).parent().prev('li');
-		}
-	})
-	prevTab.find('a').trigger('click');
+$('.previous').click(function () {
+    $('.nav-tabs > .nav-item > .active').parent().prev('li').find('a').trigger('click');
 });
 
 //DIKA
