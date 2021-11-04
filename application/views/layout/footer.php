@@ -39,10 +39,6 @@
   <script src="<?php echo base_url(); ?>assets/plugins/raphael/raphael.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/plugins/jquery-mapael/jquery.mapael.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/plugins/jquery-mapael/maps/usa_states.min.js"></script>
-
-  <!-- AdminLTE for demo purposes -->
-  <script src="<?php echo base_url(); ?>assets/plugins/lte/js/demo.js"></script>
-
   <!-- Select2 -->
   <script src="<?php echo base_url(); ?>assets/plugins/select2/js/select2.full.min.js"></script>
   <!-- Bootstrap4 Duallistbox -->

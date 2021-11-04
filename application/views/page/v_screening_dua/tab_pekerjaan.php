@@ -12,7 +12,7 @@
                         </center>
                     </div>
                     <div class="flex-square-body">
-                        <div class="col-md-12">
+                        <div class="col-md-22">
                             <div class="form-group row">
                                 <label class="col-sm-5 col-form-label">Pekerjaan Debitur*:</label>
                                 <div class="col-sm-7">
@@ -64,13 +64,13 @@
                                     <div class="col-sm-7">
                                         <div class="input-group">
                                             <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja">
-                                            <div class="col-md-1" style="display:flex; justify-content:center; align-items:center; margin:2px">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
                                             <input type="text" class="form-control" id="inp-total-bln-kerja">
-                                            <div class="col-md-1" style="display:flex; justify-content:center; align-items:center;">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
                                                 </center>
@@ -144,13 +144,13 @@
                                     <div class="col-sm-7">
                                         <div class="input-group">
                                             <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-wira">
-                                            <div class="col-md-1" style="display:flex; justify-content:center; align-items:center; margin:2px">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
                                             <input type="text" class="form-control" id="inp-total-bln-kerja-wira">
-                                            <div class="col-md-1" style="display:flex; justify-content:center; align-items:center;">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
                                                 </center>
@@ -182,7 +182,7 @@
                         </center>
                     </div>
                     <div class="flex-square-body">
-                        <div class="col-md-12">
+                        <div class="col-md-22">
                             <div class="form-group row">
                                 <label class="col-sm-5 col-form-label">Pekerjaan Pasangan*:</label>
                                 <div class="col-sm-7">
@@ -234,13 +234,13 @@
                                     <div class="col-sm-7">
                                         <div class="input-group">
                                             <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-pasangan">
-                                            <div class="col-md-1" style="display:flex; justify-content:center; align-items:center; margin:2px">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
                                             <input type="text" class="form-control inp-digit" id="inp-total-bln-pasangan">
-                                            <div class="col-md-1" style="display:flex; justify-content:center; align-items:center;">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
                                                 </center>
@@ -289,13 +289,13 @@
                                     <div class="col-sm-7">
                                         <div class="input-group">
                                             <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-pasangan-wira">
-                                            <div class="col-md-1" style="display:flex; justify-content:center; align-items:center;">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
                                             <input type="text" class="form-control" id="inp-total-bln-pasangan-wira">
-                                            <div class="col-md-1" style="display:flex; justify-content:center; align-items:center;">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
                                                 </center>

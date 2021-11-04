@@ -25,13 +25,13 @@
                             <div class="col-sm-6">
                                 <div class="input-group">
                                     <input type="text" class="form-control inp-digit" id="inp-lama-tinggal-thn">
-                                    <div class="col-md-1" style="display:flex; justify-content:center; align-items:center; margin:2px">
+                                    <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                         <center>
                                             Thn
                                         </center>
                                     </div>
                                     <input type="text" class="form-control" id="inp-lama-tinggal-bln">
-                                    <div class="col-md-1" style="display:flex; justify-content:center; align-items:center;">
+                                    <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                         <center>
                                             Bln
                                         </center>

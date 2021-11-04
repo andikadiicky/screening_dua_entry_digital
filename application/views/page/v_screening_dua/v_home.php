@@ -1,5 +1,4 @@
 <?php $this->load->view('layout/header'); ?>
-<?php $this->load->view('layout/navmenu'); ?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -14,7 +13,7 @@
         </div>
         <div class="col-sm-12">
           <div class="form-group row responsive-bantuan-isi">
-            <label class="col-sm-2 col-form-label">Butuh Bantuan Pengisian Data?</label>
+            <label class="col-sm-6 col-form-label judul-bantuan">Butuh Bantuan Pengisian Data?</label>
             <div>
               <button type="button" class="btn btn-secondary" id="btn-bantuan-isi-data">Klik Disini</button>
             </div>
@@ -27,8 +26,8 @@
   <!-- Main content -->
   <section class="content">
     <div class="container-fluid">
-      <!-- TAB EFD 2 -->
       <?php $this->load->view('layout/tab_screening_dua') ?>
+      <br>
     </div>
     <!-- /.container-fluid -->
   </section>

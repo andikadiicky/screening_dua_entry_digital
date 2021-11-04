@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+/* Removing margin left from content wrapper & navmenu */
+.content-wrapper{
+  margin-left: unset!important;
+}
+.main-footer{
+  margin-left: unset!important;
+}
+
 /* Start Loading Style */
 .content-loader {
     position: fixed;

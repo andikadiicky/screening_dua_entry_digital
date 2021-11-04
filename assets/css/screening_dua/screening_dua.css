@@ -3,4 +3,8 @@
 	.responsive-bantuan-isi{
 		justify-content: flex-end;
 	}
+	
+	.judul-bantuan{
+		text-align: right!important;
+	}
 }
