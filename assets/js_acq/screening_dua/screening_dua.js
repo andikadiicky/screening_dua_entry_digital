@@ -1,11 +1,3 @@
-// Trigger button next & previous
-$('.next').click(function () {
-    $('.nav-tabs > .nav-item > .active').parent().next('li').find('a').trigger('click');
-});
-$('.previous').click(function () {
-    $('.nav-tabs > .nav-item > .active').parent().prev('li').find('a').trigger('click');
-});
-
 //DIKA
 //Screening Dua pilih radio obj pembiayaan
 $('input[type="radio"]').change(function () {

@@ -165,3 +165,11 @@ function alert_error(message, callback) {
     $('.fa-times-circle').css('color', '#a94442');
     $('#btn-ok').trigger('focus');
 }
+
+// Trigger button next & previous
+$('.next').click(function () {
+    $('.nav-tabs > .nav-item > .active').parent().next('li').find('a').trigger('click');
+});
+$('.previous').click(function () {
+    $('.nav-tabs > .nav-item > .active').parent().prev('li').find('a').trigger('click');
+});
