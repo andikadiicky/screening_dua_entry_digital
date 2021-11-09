@@ -242,12 +242,16 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">No Telephone*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control inp-digit" id="inp-no-telp">
+                                    <div class="input-gorup">
+                                        <input type="text" class="form-control inp-digit" id="inp-no-telp">
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="check-alamat-ktp-dom">
+                                            <label class="form-check-label" for="checkAjuanCepat">Alamat KTP sama dengan Alamat Domisili</label>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="check-alamat-ktp-dom">
-                                <label class="form-check-label" for="checkAjuanCepat">Alamat KTP sama dengan Alamat Domisili</label>
                             </div>
                         </div>
                     </div>
