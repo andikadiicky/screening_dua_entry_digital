@@ -25,7 +25,7 @@
         <nav class="mt-2">
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
-              <a href="<?php echo site_url('c_screening_dua') ?>" class="nav-link <?php echo ($this->uri->segment(1) == 'c_screening_dua' || $this->uri->segment(1) == '') ? 'active' : '' ?>">
+              <a href="<?php echo site_url('C_data_entry_digital') ?>" class="nav-link <?php echo ($this->uri->segment(1) == 'C_data_entry_digital' || $this->uri->segment(1) == '') ? 'active' : '' ?>">
                 <i class="nav-icon fas fa-sticky-note"></i>
                 <p>
                   Screening Dua

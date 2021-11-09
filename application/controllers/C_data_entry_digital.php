@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class C_screening_dua extends CI_Controller
+class C_data_entry_digital extends CI_Controller
 {
 	function __construct()
 	{
