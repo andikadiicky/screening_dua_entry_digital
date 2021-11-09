@@ -42,6 +42,18 @@
                                 </select>
                             </div>
                         </div>
+                        <input type="hidden" id="sumber-pendapatan-utama" name="" value="">
+                        <input type="hidden" id="tot-pendapatan-seluruh" name="" value="">
+                        <input type="hidden" id="biaya-hidup" name="" value="">
+                        <input type="hidden" id="sisa-pendapatan" name="" value="">
+                        <input type="hidden" id="angs-diajukan" name="" value="">
+                        <input type="hidden" id="angs-muf-deb" name="" value="">
+                        <input type="hidden" id="angs-lain-deb" name="" value="">
+                        <input type="hidden" id="angs-muf-pasangan" name="" value="">
+                        <input type="hidden" id="angs-lain-pasangan" name="" value="">
+                        <input type="hidden" id="tot-angs-seluruh" name="" value="">
+                        <input type="hidden" id="dbr-karyawan" name="" value="">
+                        <input type="hidden" id="dir-karyawan" name="" value="">
                     </div>
                     <!-- END Form Pendapatan Karyawan, ASN, Pejabat Penyelenggara Negara, TNI/POLRI -->
 
@@ -93,6 +105,20 @@
                                 </select>
                             </div>
                         </div>
+                        <input type="hidden" id="sumber-pendapatan" name="" value=""> 
+                        <input type="hidden" id="laba-kotor" name="" value=""> 
+                        <input type="hidden" id="laba-opr" name="" value=""> 
+                        <input type="hidden" id="tot-pendapatan-seluruh-wira" name="" value=""> 
+                        <input type="hidden" id="biaya-hidup-wira" name="" value=""> 
+                        <input type="hidden" id="sisa-pendapatan-wira" name="" value=""> 
+                        <input type="hidden" id="angs-diajukan-wira" name="" value=""> 
+                        <input type="hidden" id="angs-muf-deb-wira" name="" value=""> 
+                        <input type="hidden" id="angs-lain-deb-wira" name="" value=""> 
+                        <input type="hidden" id="angs-muf-pasangan-wira" name="" value=""> 
+                        <input type="hidden" id="angs-lain-pasangan-wira" name="" value=""> 
+                        <input type="hidden" id="tot-angs-seluruh-wira" name="" value=""> 
+                        <input type="hidden" id="dbr-wira" name="" value=""> 
+                        <input type="hidden" id="dir-wira" name="" value=""> 
                     </div>
                     <!-- END Form Pendapatan Wiraswasta/Wiraswasta Profesional -->
                 </div>

@@ -162,6 +162,15 @@
                                     </div>
                                 </div>
                             </div>
+                            <input type="hidden" id="marketing-scheme" name="" value=""> 
+                            <input type="hidden" id="jenis-pembiayaan" name="" value=""> 
+                            <input type="hidden" id="object-jaminan" name="" value=""> 
+                            <input type="hidden" id="sifat-pembiayaan" name="" value=""> 
+                            <input type="hidden" id="skema-pembiayaan" name="" value=""> 
+                            <input type="hidden" id="jumlah-unit" name="" value=""> 
+                            <input type="hidden" id="multiunit" name="" value=""> 
+                            <input type="hidden" id="perusahaan-asuransi" name="" value=""> 
+                            <input type="hidden" id="tipe-bayar-angs" name="" value=""> 
                         </div>
                     </div>
                 </div>
