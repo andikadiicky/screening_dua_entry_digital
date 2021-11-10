@@ -336,7 +336,5 @@
                 <!-- END Alamat Domisili -->
             </div>
         </div>
-        <!-- /.card-body -->
     </div>
-    <!-- /.card -->
 </section>

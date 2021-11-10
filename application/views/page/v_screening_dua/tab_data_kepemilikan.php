@@ -77,7 +77,5 @@
             <!-- END Upload Dokumen -->
             <br>
         </div>
-        <!-- /.card-body -->
     </div>
-    <!-- /.card -->
 </section>

@@ -12,9 +12,8 @@ class C_data_entry_digital extends CI_Controller
 	public function index()
 	{
 		$session_data['menu'] = [
-			'screening_dua/screening_dua'
+			'entry_digital/entry_digital'
 		];
 		$this->load->view('page/v_screening_dua/v_home', $session_data);
 	}
-
 }

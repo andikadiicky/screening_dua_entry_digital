@@ -177,7 +177,5 @@
                 <!-- END Informasi Informasi Objek Pembiayaan -->
             </div>
         </div>
-        <!-- /.card-body -->
     </div>
-    <!-- /.card -->
 </section>
