@@ -18,7 +18,7 @@
                                     <label class="col-sm-6 col-form-label">No KTP Debitur*:</label>
                                     <div class="col-sm-6">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" disabled="true" id="inp-no-ktp-deb" maxlength="16">
+                                            <input type="text" class="form-control inp-digit" id="inp-no-ktp-deb" maxlength="16" readonly>
                                         </div>
                                     </div>
                                 </div>
@@ -26,7 +26,7 @@
                                     <label class="col-sm-6 col-form-label">Nama Sesuai KTP*:</label>
                                     <div class="col-sm-6">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" disabled="true" id="inp-nama-deb">
+                                            <input type="text" class="form-control" id="inp-nama-deb" readonly>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@
                                     <label class="col-sm-6 col-form-label">No HP 1*:</label>
                                     <div class="col-sm-6">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" disabled="true" id="inp-no-hp-1" maxlength="13">
+                                            <input type="text" class="form-control inp-digit" id="inp-no-hp-1" maxlength="13" readonly>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                                     <label class="col-sm-6 col-form-label">No HP 2:</label>
                                     <div class="col-sm-6">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" disabled="true" id="inp-no-hp-2" maxlength="13">
+                                            <input type="text" class="form-control inp-digit" id="inp-no-hp-2" maxlength="13" readonly>
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +92,7 @@
                                     <label class="col-sm-6 col-form-label">Email*:</label>
                                     <div class="col-sm-6">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" disabled="true" id="inp-email">
+                                            <input type="text" class="form-control" id="inp-email" readonly>
                                         </div>
                                     </div>
                                 </div>
@@ -218,25 +218,25 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Kelurahan*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="inp-kelurahan-ktp" disabled>
+                                    <input type="text" class="form-control" id="inp-kelurahan-ktp" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Kecamatan*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="inp-kecamatan-ktp" disabled>
+                                    <input type="text" class="form-control" id="inp-kecamatan-ktp" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Kab/Kota*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="inp-kabkot-ktp" disabled>
+                                    <input type="text" class="form-control" id="inp-kabkot-ktp" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Provinsi*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="inp-provinsi-ktp" disabled>
+                                    <input type="text" class="form-control" id="inp-provinsi-ktp" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -302,25 +302,25 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Kelurahan*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="inp-kelurahan-dom" disabled>
+                                    <input type="text" class="form-control" id="inp-kelurahan-dom" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Kecamatan*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="inp-kecamatan-dom" disabled>
+                                    <input type="text" class="form-control" id="inp-kecamatan-dom" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Kab/Kota*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="inp-kabkot-dom" disabled>
+                                    <input type="text" class="form-control" id="inp-kabkot-dom" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Provinsi*:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="inp-provinsi-dom" disabled>
+                                    <input type="text" class="form-control" id="inp-provinsi-dom" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
