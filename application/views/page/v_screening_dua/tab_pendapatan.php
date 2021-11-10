@@ -15,13 +15,13 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-5 col-form-label">Pendapatan Lainnya Debitur*:</label>
+                            <label class="col-sm-5 col-form-label">Pendapatan Lainnya Debitur:</label>
                             <div class="col-sm-7">
                                 <input type="text" class="form-control inp-digit" id="inp-pendapatan-lain">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-5 col-form-label">Sumber Pendapatan Lainnya Debitur*:</label>
+                            <label class="col-sm-5 col-form-label">Sumber Pendapatan Lainnya Debitur:</label>
                             <div class="col-sm-7">
                                 <select class="form-control select2bs4" style="width: 100%;" id="slc-sumber-pendapatan">
                                     <option selected disabled=""></option>
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-5 col-form-label">Sumber Pendapatan Pasangan*:</label>
+                            <label class="col-sm-5 col-form-label">Sumber Pendapatan Pasangan:</label>
                             <div class="col-sm-7">
                                 <select class="form-control select2bs4" style="width: 100%;" id="slc-sumber-pendapatan-pasangan">
                                     <option selected disabled=""></option>
@@ -78,13 +78,13 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-5 col-form-label">Pendapatan Lainnya Debitur*:</label>
+                            <label class="col-sm-5 col-form-label">Pendapatan Lainnya Debitur:</label>
                             <div class="col-sm-7">
                                 <input type="text" class="form-control inp-digit" id="inp-pendapatan-lain-wira">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-5 col-form-label">Sumber Pendapatan Lainnya Debitur*:</label>
+                            <label class="col-sm-5 col-form-label">Sumber Pendapatan Lainnya Debitur:</label>
                             <div class="col-sm-7">
                                 <select class="form-control select2bs4" style="width: 100%;" id="slc-sumber-pendapatan-wira">
                                     <option selected disabled=""></option>
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-5 col-form-label">Sumber Pendapatan Pasangan*:</label>
+                            <label class="col-sm-5 col-form-label">Sumber Pendapatan Pasangan:</label>
                             <div class="col-sm-7">
                                 <select class="form-control select2bs4" style="width: 100%;" id="slc-sumber-pendapatan-pasangan-wira">
                                     <option selected disabled=""></option>

@@ -63,13 +63,13 @@
                                     <label class="col-sm-5 col-form-label">Total Lama Bekerja*:</label>
                                     <div class="col-sm-7">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja">
+                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
-                                            <input type="text" class="form-control" id="inp-total-bln-kerja">
+                                            <input type="text" class="form-control" id="inp-total-bln-kerja" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
@@ -143,13 +143,13 @@
                                     <label class="col-sm-5 col-form-label">Total Lama Usaha*:</label>
                                     <div class="col-sm-7">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-wira">
+                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-wira" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
-                                            <input type="text" class="form-control" id="inp-total-bln-kerja-wira">
+                                            <input type="text" class="form-control" id="inp-total-bln-kerja-wira" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
@@ -233,13 +233,13 @@
                                     <label class="col-sm-5 col-form-label">Total Lama Bekerja*:</label>
                                     <div class="col-sm-7">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-pasangan">
+                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-pasangan" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
-                                            <input type="text" class="form-control inp-digit" id="inp-total-bln-pasangan">
+                                            <input type="text" class="form-control inp-digit" id="inp-total-bln-pasangan" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
@@ -288,13 +288,13 @@
                                     <label class="col-sm-5 col-form-label">Total Lama Usaha*:</label>
                                     <div class="col-sm-7">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-pasangan-wira">
+                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-pasangan-wira" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
-                                            <input type="text" class="form-control" id="inp-total-bln-pasangan-wira">
+                                            <input type="text" class="form-control" id="inp-total-bln-pasangan-wira" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln

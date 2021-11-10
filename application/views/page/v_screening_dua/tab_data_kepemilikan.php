@@ -24,13 +24,13 @@
                             <label class="col-sm-6 col-form-label">Lama Tinggal:</label>
                             <div class="col-sm-6">
                                 <div class="input-group">
-                                    <input type="text" class="form-control inp-digit" id="inp-lama-tinggal-thn">
+                                    <input type="text" class="form-control inp-digit" id="inp-lama-tinggal-thn" maxlength="3">
                                     <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                         <center>
                                             Thn
                                         </center>
                                     </div>
-                                    <input type="text" class="form-control" id="inp-lama-tinggal-bln">
+                                    <input type="text" class="form-control" id="inp-lama-tinggal-bln" maxlength="3">
                                     <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                         <center>
                                             Bln

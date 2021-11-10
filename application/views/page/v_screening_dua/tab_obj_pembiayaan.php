@@ -122,7 +122,7 @@
                             </div>
                             <!-- Object Pembiayaan Dana -->
                             <div class="form-group row" id="form-object-pemb-dana-est-harga" style="display: none;">
-                                <label class="col-sm-4 col-form-label">Estimasi Harga Kendaraan*:</label>
+                                <label class="col-sm-4 col-form-label">Estimasi Harga Kendaraan:</label>
                                 <div class="col-sm-8">
                                     <div class="input-group">
                                         <input type="text" class="form-control inp-digit" id="inp-est-harga-kend" disabled>
@@ -130,7 +130,7 @@
                                 </div>
                             </div>
                             <div class="form-group row" id="form-object-pemb-dana-pengajuan-cair" style="display: none;">
-                                <label class="col-sm-4 col-form-label">Pengajuan Pencairan:</label>
+                                <label class="col-sm-4 col-form-label">Pengajuan Pencairan*:</label>
                                 <div class="col-sm-8">
                                     <div class="input-group">
                                         <input type="text" class="form-control inp-digit" id="inp-pengajuan-pencairan-dana">
