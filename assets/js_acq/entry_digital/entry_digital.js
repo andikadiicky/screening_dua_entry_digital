@@ -1,5 +1,31 @@
-//DIKA
-//Screening Dua pilih radio obj pembiayaan
+$(document).ready(function () {
+	app.formEntryDigitalScrDua.init();
+});
+
+$(document).on('select2:open', () => {
+	document.querySelector('.select2-search__field').focus();
+	$('.select2-search__field').css("text-transform", "uppercase");
+});
+
+app.formEntryDigitalScrDua = {
+	controller: 'c_data_entry_digital/',
+	api: 'c_data_entry_digital_api/',
+	elm: {},
+
+	init: function () {
+		var that = this;
+		
+	},
+}
+
+//FUNCTION FOR TAB IDENTITAS
+
+//FUNCTION FOR TAB PEKERJAAN
+
+//FUNCTION FOR TAB PENDAPATAN
+
+//FUNCTION FOR TAB OBJECT PEMBIAYAAN
+//Pilih Radio Obj Pembiayaan
 $('input[type="radio"]').change(function () {
 	if (this.id == "radio-obj-kend") {
 		console.log('pilih radio efd objek pembiayaan kendaraan');
@@ -22,7 +48,11 @@ $('input[type="radio"]').change(function () {
 	}
 });
 
-//Dika responsive DataTables TAB
+
+//FUNCTION FOR TAB DATA KEPEMILIKAN
+
+
+//Responsive DataTables TAB
 $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 	$($.fn.dataTable.tables(true)).DataTable()
 		.columns.adjust()
@@ -37,10 +67,10 @@ var tbl_upload_dok = $('#tbl-upload-dokumen').DataTable({
 	"info": false
 });
 
-//Dika
+
 //Trigger modal bantuan isi data
 $('#btn-bantuan-isi-data').click(function () {
-	console.log('trigger button modal bantuan isi datas');
+	console.log('trigger button modal bantuan isi data');
 	$('#modal-bantuan-isi').modal('show');
 });
 
@@ -60,8 +90,8 @@ $('#btn-submit-bantuan').click(function () {
 	}
 });
 
-//DIKA
-//Screening Dua show form alasan batal
+
+//Show form alasan batal
 $('input[type="radio"]').change(function () {
 	if (this.id == "bantuan-isi-ya") {
 		console.log('bantuan ya');
