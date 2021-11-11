@@ -115,7 +115,7 @@
                                 <div class="form-group row">
                                     <label class="col-sm-6 col-form-label">Jenis Identitas Pasangan*:</label>
                                     <div class="col-sm-6">
-                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-identitas">
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-id-pasangan">
                                             <option selected disabled=""></option>
                                         </select>
                                     </div>

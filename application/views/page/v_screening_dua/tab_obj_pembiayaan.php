@@ -99,7 +99,7 @@
                             <div class="form-group row" id="form-object-pemb-tenor">
                                 <label class="col-sm-4 col-form-label">Tenor*:</label>
                                 <div class="col-sm-8">
-                                    <select class="form-control select2bs4" style="width: 100%;" id="slc-tenor-kend">
+                                    <select class="form-control select2bs4" style="width: 100%;" id="slc-tenor">
                                         <option selected disabled=""></option>
                                     </select>
                                 </div>

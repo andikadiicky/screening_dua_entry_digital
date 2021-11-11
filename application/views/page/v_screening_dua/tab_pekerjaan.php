@@ -81,12 +81,13 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Join Income Dengan Pasangan*:</label>
                                     <div class="col-sm-7">
-                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-join-income">
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-join-income-karyawan">
                                             <option selected disabled=""></option>
                                         </select>
                                     </div>
                                 </div>
                             </div>
+                            
                             <!-- Start Form Pekerjaan Wiraswasta / Wiraswasta Profesional -->
                             <div id="form-pekerjaan-wira" style="display: none">
                                 <div class="form-group row">
@@ -161,7 +162,7 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Join Income Dengan Pasangan*:</label>
                                     <div class="col-sm-7">
-                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-join-income">
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-join-income-wira">
                                             <option selected disabled=""></option>
                                         </select>
                                     </div>
