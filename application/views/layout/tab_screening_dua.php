@@ -1,24 +1,29 @@
 <div class="card card-primary card-outline card-outline-tabs">
   <div class="card-header p-2">
-
-    <ul class="nav nav-tabs" id="nav-tab-screening-dua-digital" role="tablist">
-      <li class="nav-item" role="presentation">
-        <a class="nav-link active" data-toggle="tab" href="#identitas" role="tab" aria-controls="identitas">Identitas</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" data-toggle="tab" href="#pekerjaan" role="tab" aria-controls="pekerjaan">Pekerjaan</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" data-toggle="tab" href="#pendapatan" role="tab" aria-controls="pendapatan">Pendapatan</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" data-toggle="tab" href="#obj-pembiayaan" role="tab" aria-controls="obj-pembiayaan">Object Pembiayaan</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" data-toggle="tab" href="#data-kepemilikan" role="tab" aria-controls="data-kepemilikan">Data Kepemilikan & Dokumen</a>
-      </li>
-    </ul>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggle-nav-tabs" style="margin-bottom: 5px;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="toggle-nav-tabs">
+        <ul class="nav nav-tabs col-md-12" id="nav-tab-screening-dua-digital" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" data-toggle="tab" href="#identitas" role="tab" aria-controls="identitas">Identitas</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-toggle="tab" href="#pekerjaan" role="tab" aria-controls="pekerjaan">Pekerjaan</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-toggle="tab" href="#pendapatan" role="tab" aria-controls="pendapatan">Pendapatan</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-toggle="tab" href="#obj-pembiayaan" role="tab" aria-controls="obj-pembiayaan">Object Pembiayaan</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-toggle="tab" href="#data-kepemilikan" role="tab" aria-controls="data-kepemilikan">Data Kepemilikan & Dokumen</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="tab-content" id="nav-tab-content-screening-dua">
       <div class="tab-pane active" id="identitas" role="tabpanel" aria-labelledby="identitas-tab">
         <?php $this->load->view('/page/v_screening_dua/tab_identitas'); ?>
