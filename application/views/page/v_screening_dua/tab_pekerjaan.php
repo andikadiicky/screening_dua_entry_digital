@@ -56,7 +56,9 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Sektor Ekonomi*:</label>
                                     <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="inp-sektor-eko">
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-sektor-eko-karyawan">
+                                            <option selected disabled=""></option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -115,7 +117,9 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Sektor Ekonomi*:</label>
                                     <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="inp-sektor-eko-wira">
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-sektor-eko-wira">
+                                            <option selected disabled=""></option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -183,7 +187,7 @@
                         </center>
                     </div>
                     <div class="flex-square-body">
-                        <div class="col-md-22">
+                        <div class="col-md-12">
                             <div class="form-group row">
                                 <label class="col-sm-5 col-form-label">Pekerjaan Pasangan*:</label>
                                 <div class="col-sm-7">
@@ -195,23 +199,26 @@
                             <!-- Start Form Pekerjaan Pasangan Karyawan, ASN, Pejabat Penyelenggara Negara, TNI/POLRI -->
                             <div id="form-pekerjaan-pasangan-karyawan">
                                 <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Jenis Tempat Bekerja*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-jenis-tempat-kerja-karyawan-pasangan">Jenis Tempat Bekerja*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-jenis-tempat-kerja-wira-pasangan" style="display:none">Jenis Tempat Usaha*:</label>
                                     <div class="col-sm-7">
-                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-tempat-kerja-pasangan">
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-tempat-kerja-pasangan-karyawan">
                                             <option selected disabled=""></option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Nama Tempat Bekerja*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-nama-tempat-kerja-karyawan-pasangan">Nama Tempat Bekerja*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-nama-tempat-kerja-wira" style="display:none">Nama Tempat Usaha*:</label>
                                     <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="inp-nama-tempat-kerja-pasangan">
+                                        <input type="text" class="form-control" id="inp-nama-tempat-kerja-pasangan-karyawan">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Jabatan Pasangan*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-jabatan-karyawan-pasangan">Jabatan Pasangan*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-bidang-usaha-wira-pasangan" style="display:none">Bidang Usaha*:</label>
                                     <div class="col-sm-7">
-                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-jabatan-pasangan">
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-jabatan-pasangan-karyawan">
                                             <option selected disabled=""></option>
                                         </select>
                                     </div>
@@ -219,28 +226,22 @@
                                 <div class="form-group row">
                                     <label class="col-sm-5 col-form-label">Status Pegawai*:</label>
                                     <div class="col-sm-7">
-                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-status-pegawai-pasangan">
+                                        <select class="form-control select2bs4" style="width: 100%;" id="slc-status-pegawai-pasangan-karyawan">
                                             <option selected disabled=""></option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Sektor Ekonomi*:</label>
-                                    <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="inp-sektor-eko-pasangan">
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Total Lama Bekerja*:</label>
+                                    <label class="col-sm-5 col-form-label">Total Lama Bekerja/Usaha*:</label>
                                     <div class="col-sm-7">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-pasangan" maxlength="3">
+                                            <input type="text" class="form-control inp-digit" id="inp-tot-thn-kerja-pasangan-karyawan" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
-                                            <input type="text" class="form-control inp-digit" id="inp-total-bln-pasangan" maxlength="3">
+                                            <input type="text" class="form-control inp-digit" id="inp-tot-bln-pasangan-karyawan" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
@@ -256,7 +257,8 @@
                             <!-- Start Form Pekerjaan Pasangan Wiraswasta / Wiraswasta Profesional -->
                             <div id="form-pekerjaan-pasangan-wira" style="display: none;">
                                 <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Jenis Tempat Usaha*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-jenis-tempat-kerja-karyawan-pasangan">Jenis Tempat Bekerja*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-jenis-tempat-kerja-wira-pasangan" style="display:none">Jenis Tempat Usaha*:</label>
                                     <div class="col-sm-7">
                                         <select class="form-control select2bs4" style="width: 100%;" id="slc-jenis-tempat-kerja-pasangan-wira">
                                             <option selected disabled=""></option>
@@ -264,13 +266,15 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Nama Tempat Usaha*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-nama-tempat-kerja-karyawan-pasangan">Nama Tempat Bekerja*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-nama-tempat-kerja-wira" style="display:none">Nama Tempat Usaha*:</label>
                                     <div class="col-sm-7">
                                         <input type="text" class="form-control" id="inp-nama-tempat-kerja-pasangan-wira">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Bidang Usaha*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-jabatan-karyawan-pasangan">Jabatan Pasangan*:</label>
+                                    <label class="col-sm-5 col-form-label" id="title-bidang-usaha-wira-pasangan" style="display:none">Bidang Usaha*:</label>
                                     <div class="col-sm-7">
                                         <select class="form-control select2bs4" style="width: 100%;" id="slc-jabatan-pasangan-wira">
                                             <option selected disabled=""></option>
@@ -286,16 +290,16 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-sm-5 col-form-label">Total Lama Usaha*:</label>
+                                    <label class="col-sm-5 col-form-label">Total Lama Bekerja/Usaha*:</label>
                                     <div class="col-sm-7">
                                         <div class="input-group">
-                                            <input type="text" class="form-control inp-digit" id="inp-total-thn-kerja-pasangan-wira" maxlength="3">
-                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
+                                            <input type="text" class="form-control inp-digit" id="inp-tot-thn-kerja-pasangan-wira" maxlength="3">
+                                            <div class="col-md-2" style="display:flex; justify-content:center; align-items:center; margin:2px">
                                                 <center>
                                                     Thn
                                                 </center>
                                             </div>
-                                            <input type="text" class="form-control" id="inp-total-bln-pasangan-wira" maxlength="3">
+                                            <input type="text" class="form-control inp-digit" id="inp-tot-bln-pasangan-wira" maxlength="3">
                                             <div class="col-md-2" style="display:flex; justify-content:center; align-items:center;">
                                                 <center>
                                                     Bln
